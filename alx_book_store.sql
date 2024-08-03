@@ -1,3 +1,5 @@
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'jorgeeshun';
+FLUSH PRIVILEGES;
 -- Create the database if it does not already exist
 CREATE DATABASE IF NOT EXISTS alx_book_store;
 
