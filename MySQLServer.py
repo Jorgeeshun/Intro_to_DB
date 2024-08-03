@@ -29,6 +29,7 @@ def create_database():
 
         
     cursor.close()
+
     connection.close()
 
 if __name__ == "__main__":
