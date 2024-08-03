@@ -1,4 +1,4 @@
-CREATE IF NOT EXIsTS DATABASE alx_book_store;
+CREATE IF NOT EXISTS DATABASE alx_book_store;
 
 CREATE TABLE Books (
     books_id INT NOT NULL PRIMARY KEY,
